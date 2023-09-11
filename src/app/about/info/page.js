@@ -1,9 +1,12 @@
+import { Header } from '../../component/Header'
 import { Footer } from '../../component/Footer'
 
 const info = () => {
   return (
     <>
-      <div class="container min-h-[calc(100vh_-_64px)] flex justify-center items-center">
+
+    <Header />
+      <div className="container min-h-[calc(100vh_-_64px)] flex justify-center items-center">
         <div className="flex flex-col">
           <h2 className="text-3xl font-thin">infoページ</h2>
           <div className="flex gap-2">
