@@ -1,6 +1,7 @@
-import { Header } from "../component/Header";
-import { Footer } from "../component/Footer";
-import { Headline } from "../component/Headline";
+"use client"
+import { Header } from "src/app/component/Header";
+import { Footer } from "src/app/component/Footer";
+import { Headline } from "src/app/component/Headline";
 
 const about = () => {
   return (

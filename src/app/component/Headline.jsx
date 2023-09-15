@@ -1,4 +1,4 @@
-
+"use client"
 
 export function Headline(props) {
   return (

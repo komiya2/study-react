@@ -1,8 +1,8 @@
-import Image from "next/image";
-import { Header } from "../component/Header";
-import { Footer } from "../component/Footer";
-import { Headline } from "../component/Headline";
-import { Main_link } from "../component/Main_link";
+
+import { Header } from "src/app/component/Header";
+import { Footer } from "src/app/component/Footer";
+import { Headline } from "src/app/component/Headline";
+import { Link } from "src/app/component/Link";
 
 export default function News() {
   return (
@@ -22,13 +22,10 @@ export default function News() {
         </div>
 
 
-        <div className=" flex content-around justify-center flex-col flex-grow justify-around pt-8">
-
-        <Main_link />
-
-
-
+        <div className="flex content-around justify-center flex-col flex-grow justify-around pt-8">
+        <Link />
         </div>
+
       </main>
       <Footer />
     </>

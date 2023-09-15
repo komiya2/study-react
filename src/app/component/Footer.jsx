@@ -1,3 +1,5 @@
+"use client"
+
 import Image from 'next/image'
 
 export function Footer() {
@@ -10,7 +12,7 @@ export function Footer() {
       >
         <p>Powered by{" "}</p>
         <p className="">
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          <Image src="/vercel.svg" alt="Vercel Logo" className="h-auto" width={72} height={16} />
         </p>
       </a>
     </footer>
